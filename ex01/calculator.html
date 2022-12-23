@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Calculator</h1>
+    <input type="number" name="number1" id="valueNumber">
+    <button id="generate" onclick="generate()">Start</button>
+   <p id = "txtValue"></p>
+    <div id="textArea"></div>
+   
+    <script>
+        function generate()
+        {
+            let list = document.getElementById("txtValue")
+            let number = 6
+            let total = number * 10
+           list.textContent = (total)
+                              
+        }
+
+        /*
+        function generate(number, c)
+        {
+            window.alert("test")
+            var number = document.getElementById("valueNumber")
+            var textArea = document.getElementById("txtValue")
+            var c = 1
+            var n = Number(number.value)
+            let calc = []
+            while (c<=10)
+            {
+                var total = (n*c)
+               calc [] = total 
+                c++
+                document.getElementById(`txtValue`).innerHTML = total
+               window.alert(total)
+
+            }
+            
+        }
+        */
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<header><h1>JavaScript Test</h1>
+    <nav>
+        <a href="age.html">Age test</a>
+        <a href="time.html">Time test</a>
+        <a href="calculator.html">Calculator test</a>
+    </nav>
+</header>
+<body>
+    <input id="timeDay" type="number"name = "timeDay"oninput="timeOfDay()">
+    <button id="bt1" onclick="timeDefine()">Save</button>
+    <section>
+        <div class="left"> 
+            <div id="imageDay"><img src="/sunrise.png" alt="imageday" >
+            </div>
+        </div>
+        <div class="button">Select</div>
+    </section>
+
+    <script>
+             function timeDefine()
+         {
+            window.alert("1o passo")
+            var hour = document.getElementById("timeDay")
+            
+            if (hour >= 10 && hour <=18)
+            {
+                window.alert("It`s still day time")
+            }
+            else if (hour > 18 && hour <= 24)
+              {
+                  window.alert("It`s night time")
+              }
+            else {
+                window.alert(`Sunrise`)
+            }
+         }
+         
+        
+         
+
+    </script>
+</body>
+</html>

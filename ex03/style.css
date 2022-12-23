@@ -1,0 +1,19 @@
+@charset "UTF-8";
+h2#left{
+        text-align: center;
+}
+h2#right{
+    margin-left: 50px;
+    margin-top: -47px;
+    text-align: center;
+}
+div#math{
+    margin:20px;  
+    text-align: center;
+}
+div#total{
+    text-align: center;
+    border: 3px solid grey;
+}
+
+    
